@@ -1,13 +1,4 @@
-//>>excludeStart("jqmBuildExclude", pragmas.jqmBuildExclude);
-//>>description: 
-//>>label: Swipe
-//>>group: Widgets
-define( [
-	"jqm/jquery",
-	"jqm/widgets/listview" ], function( jQuery ) {
-//>>excludeEnd("jqmBuildExclude");
-
-( function( $, window, document, undefined ) {	// [MK] check it
+( function( $, window, document, undefined ) {
 
 $.widget( "mobile.listview", $.mobile.listview, {
 		_isOpen: false,
@@ -172,6 +163,3 @@ $.widget( "mobile.listview", $.mobile.listview, {
 
 } ( jQuery, window, document ) );
 
-//>>excludeStart("jqmBuildExclude", pragmas.jqmBuildExclude);
-} );
-//>>excludeEnd("jqmBuildExclude");
